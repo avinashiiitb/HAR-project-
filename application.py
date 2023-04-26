@@ -7,7 +7,8 @@ from src.pipeline.predict_pipeline import Preprocessingpipeline
 import os
 from werkzeug.utils import secure_filename
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 model = Predictpipeline()
 path = 'C:\\Users\\avina\\HAR_END_TO_END\\model_128_STRATIFY_ 112_val_accuracy0.93846_val_loss0.31000.h5'
 loaded_model = model.give_model(path) 
@@ -39,4 +40,5 @@ def get_output():
 
 if __name__ =='__main__':
 	#app.debug = True
-	app.run(debug = True)
+	#app.run(host ="0.0.0.0",debug = True)
+	app.run(host ="0.0.0.0") #for deployment remove that debug
