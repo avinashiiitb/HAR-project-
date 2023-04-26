@@ -5,7 +5,7 @@ imgaug
 scikit-learn
 Flask
 tensorflow
-keras
+#keras
 os
 #-e .
 
