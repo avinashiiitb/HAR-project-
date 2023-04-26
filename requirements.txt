@@ -4,5 +4,8 @@ seaborn
 imgaug
 scikit-learn
 Flask
+tensorflow
+keras
+os
 #-e .
 
