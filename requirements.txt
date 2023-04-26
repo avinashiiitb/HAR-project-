@@ -2,6 +2,7 @@ numpy
 pandas
 seaborn
 imgaug
+scikit-learn
 Flask
 #-e .
 
