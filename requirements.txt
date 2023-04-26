@@ -2,5 +2,6 @@ numpy
 pandas
 seaborn
 imgaug
--e .
 Flask
+#-e .
+
