@@ -6,6 +6,6 @@ scikit-learn
 Flask
 tensorflow
 #keras
-os
+#os
 #-e .
 
